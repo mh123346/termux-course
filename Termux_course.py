@@ -322,7 +322,7 @@ if mh =="21" :
         if ml =="1" :
             exit ()
         if ml =="2" :
-        system ("python Termux_course.py")    
+            system ("python Termux_course.py")    
     if mo =="n" :
         print("thanks for using our tool")
         print ("\033[0;32m1-exit")
@@ -331,7 +331,7 @@ if mh =="21" :
         if ml =="1" :
             exit ()
         if ml =="2" :
-        system ("python Termux_course.py")  
+            system ("python Termux_course.py")  
 ###################################
 if mh =="22" :
     exit()
