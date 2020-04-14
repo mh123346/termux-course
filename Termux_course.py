@@ -4,7 +4,7 @@ from os import *
 #################
 system ("clear")
 #################
-system ("termux-open https://www.youtube.com/channel/UCr1TEpJXT7F_52aeLttQK_w")
+
 #################
 #y \033[0;33m
 #r \033[0;31m
@@ -310,14 +310,28 @@ if mh =="21" :
     print ("me and the embrator")
     print ("my number(+201100020487)")
     print ("ambrator number (+201099621725)")
-    print("thanks for using our tool")
-    print ("\033[0;32m1-exit")
-    print ("\033[0;32m2-back")
-    ml =input ("choose number>>>")
-    if ml =="1" :
-        exit ()
-    if ml =="2" :
+    
+    mo =input ("do you want to see our channel y/n")
+    if mo =="y" :
+        system ("termux-open https://www.youtube.com/channel/UCr1TEpJXT7F_52aeLttQK_w")
+        
+        print("thanks for using our tool")
+        print ("\033[0;32m1-exit")
+        print ("\033[0;32m2-back")
+        ml =input ("choose number>>>")
+        if ml =="1" :
+            exit ()
+        if ml =="2" :
         system ("python Termux_course.py")    
+    if mo =="n" :
+        print("thanks for using our tool")
+        print ("\033[0;32m1-exit")
+        print ("\033[0;32m2-back")
+        ml =input ("choose number>>>")
+        if ml =="1" :
+            exit ()
+        if ml =="2" :
+        system ("python Termux_course.py")  
 ###################################
 if mh =="22" :
     exit()
